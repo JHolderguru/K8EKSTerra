@@ -35,7 +35,7 @@ There are 2 ways we can deploy EKS cluster on AWS
 
 To create cluster
 ````
-eksctl create cluster --region=eu-west-1 --node-type=t2.medium
+eksctl create cluster --region=eu-west-1 --node-type=t2.micro
 ````
 The above command will create EKS cluster with default parameters if you dont specify any.
 
