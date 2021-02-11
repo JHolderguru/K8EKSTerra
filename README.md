@@ -9,10 +9,15 @@ This project contains the three modules
 
 We create the following infrastructure on AWS with the instructions given below.
 - EC2 Instances
+
 - EKS Cluster
+
 - Horizontal Pod AutoScaler
+
 - Cluster AutoScaler
+
 - Deploying Metrics-Server
+
 - Deploying php-apache service 
 
 There are 2 ways we can deploy EKS cluster on AWS
@@ -70,7 +75,7 @@ terraform init   //to initialize terraform
 terraform plan   //to review the tf scripts and to make the plan by terraform
 terraform apply  //final command to execute the provision of infra on cloud or on-premise
 ```` 
-The deployment of infra will take at least 15 min.
+The deployment of infrastructure will take at least 15 min.
 
 To execute further commands the following CLI tools needs to be installed on laptop
 * kubectl - To connect and co-ordinate with Kubernetes cluster.
