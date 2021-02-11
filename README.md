@@ -87,7 +87,7 @@ to connect with AWS cloud
 The below commands needs to be executed to copy the EKS configuration to kubectl cli tool to get conenct with Kubernetes
 ````
 terraform output kubeconfig > ~/.kube/config 
-aws eks --region us-east-1 update-kubeconfig --name terraform-eks-demo
+aws eks --region eu-west-1 update-kubeconfig --name terraform-eks-demo
 ````
 The below command to get config details of authentication with AWS & deploy the config map deployment.
 ````
